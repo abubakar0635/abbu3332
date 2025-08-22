@@ -76,3 +76,4 @@ Have questions? Replace this with your own contact form or email link.
 </div>
 );
 }
+export default App;
