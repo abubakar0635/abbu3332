@@ -1,3 +1,5 @@
+version: 0.2
+
 phases:
   install:
     runtime-versions:
@@ -5,10 +7,12 @@ phases:
     commands:
       - echo Installing dependencies...
       - npm install
+
   build:
     commands:
       - echo Building React app...
       - npm run build
+
   post_build:
     commands:
       - echo Deploying to S3...
